@@ -13,6 +13,8 @@
     "react-unity-webgl": "^7.1.10"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "audit": "npm audit fix",
     "update": "npm update",
     "postinstall": "cp -r node_modules/blockly/media public/media",
