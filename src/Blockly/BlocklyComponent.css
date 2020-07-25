@@ -1,0 +1,7 @@
+#blocklyDiv {
+  height: 60%;
+  width: 30%;
+  display:inline-block;
+  position: absolute;
+  left: 5%;
+}
